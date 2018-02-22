@@ -1,0 +1,104 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	-webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box; 
+}
+
+body{
+	font-family: arial;
+	font-size: 13px;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul,li{
+	list-style: none;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.title{
+	margin: 20px 0px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.btn{
+	display: inline-block;
+	padding: 10px;
+	background: #53BDB7;
+	color: #FFF;
+	border: none;
+	cursor: pointer;
+}
+
+.btn-yellow{
+	background: #F0CE69 !important;
+}
+
+.btn-orange{
+	background: #EA9363 !important;
+}
+
+.table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table tr > th,
+.table tr > td{
+	padding: 10px;
+	border:1px solid #53BDB7;
+}
+
+.table tr:first-child{
+	border-bottom: 2px solid #53BDB7;
+}
+
+.menu {
+    width: 100%;
+    background: #53BDB7;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.menu li{
+	float: left;
+}
+
+.menu::after{
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.menu li > a{
+	padding: 10px;
+	display: inline-block;
+	color: #FFF;
+	letter-spacing: 1px
+}
+
+.form-control {
+	width: 100%;
+	margin: 10px 0px
+}
+
+.form-control > label{
+	display: block;
+	margin-bottom: 3px;
+}
+
+.form-control > .form-element{
+	padding: 10px;
+	width: 100%;
+	border: 1px solid #53BDB7;
+}
